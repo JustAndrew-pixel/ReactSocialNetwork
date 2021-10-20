@@ -1,0 +1,17 @@
+.content {
+    grid-area: content;
+    background-color: darkred;
+}
+
+.content img {
+    width: 1000px;
+
+}
+
+.posts {
+
+}
+
+.item {
+    color: darkorange;
+}

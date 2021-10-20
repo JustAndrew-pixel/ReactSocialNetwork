@@ -10,24 +10,3 @@ grid-template-areas:
   grid-gap: 10px;
 }
 
-.header{
-grid-area: header;
-background-color: darkred;
-}
-.header img {
-  width: 40px;
-}
-
-.navbar{
-  grid-area: navbar;
-  background-color: darkred;
-}
-
-.content{
-  grid-area: content;
-  background-color: darkred;
-}
-.content img{
-  width: 1000px;
-
-}

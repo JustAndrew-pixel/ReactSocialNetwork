@@ -1,10 +1,10 @@
 import React from 'react';
-import '../App.css';
+import s from './Profile.module.css';
 
 
 const Profile = (props) => {
     return (
-        <div className='content'>
+        <div className={s.content}>
             <img src='https://photocasa.ru/uploads/posts/2017-01/1485218882_img_5932.jpg'/>
             <div>
                 ava+description
@@ -14,11 +14,11 @@ const Profile = (props) => {
                 <div>
                     New post
                 </div>
-                <div>
-                    <div>
+                <div className={s.posts}>
+                    <div className={s.item}>
                         post 1
                     </div>
-                    <div>
+                    <div className={s.item}>
                         post 2
                     </div>
                 </div>
