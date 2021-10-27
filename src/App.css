@@ -10,3 +10,8 @@ grid-template-areas:
   grid-gap: 10px;
 }
 
+.app-wrapper-content{
+  grid-area: content;
+  background-color: darkred;
+
+}
