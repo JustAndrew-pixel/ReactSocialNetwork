@@ -12,6 +12,6 @@ grid-template-areas:
 
 .app-wrapper-content{
   grid-area: content;
-  background-color: darkred;
-
+ /* background-color: darkred;*/
+  background: linear-gradient(to bottom, #e5eecc , #a2d4ab, #3eacA8, #547A82, #5a5050 );
 }

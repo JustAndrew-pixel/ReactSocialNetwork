@@ -1,6 +1,7 @@
 .header{
     grid-area: header;
-    background-color: darkred;
+   /* background-color: darkred;*/
+    background: linear-gradient(to bottom, #e5eecc , #a2d4ab, #3eacA8, #547A82, #5a5050 );
 }
 .header img {
     width: 40px;
