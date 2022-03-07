@@ -24,6 +24,8 @@ const Dialogs = (props) => {
 
     }
 
+    alert(props.isAuth)
+
     return (
         <div className={s.dialogs}>
 
