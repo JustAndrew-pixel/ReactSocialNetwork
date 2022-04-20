@@ -6,7 +6,7 @@ import {NavLink} from "react-router-dom";
 const Header = (props) => {
     return (
         <header className={s.header}>
-            <img src='https://www.pngix.com/pngfile/middle/644-6441818_black-and-white-phoenix-bird-logo-hd-png.png'/>
+            <img src='https://www.adobe.com/de/express/create/logo/media_149e117390bf90a8193acf0490559504e1adbd3af.png?width=400&format=png&optimize=medium'/>
 
             <div className={s.loginBlock}>
                 {props.isAuth ? props.login  :  <NavLink to={'/login'}>Login</NavLink>}
